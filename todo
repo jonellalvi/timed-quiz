@@ -2,10 +2,18 @@ Purpose:
 
 To play around with times 
 To understand OO programing better
-
+To practice using git and github to manage a project
 
 Some things to try for the quiz:
 1. Change so it takes a number of questions to generate
 2. Make sure the user can specify the range they want the numbers to come from
 3. Add in some further stats that tell you how long it took to answer each question.
 4. Add subtraction questions
+5. Allow the user to practice specific operators
+
+
+------
+
+1/9/2015
+-noticed it's scoring everything out of 0. 
+-fix this bug!

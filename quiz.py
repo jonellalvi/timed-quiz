@@ -59,7 +59,7 @@ class Quiz:
 
 
     def total_correct(self):
-      # return the total # of correct ansewrs
+      # return the total # of correct answers
       total = 0
       for answer in self.answers:
          if answer[0]:
