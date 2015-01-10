@@ -36,4 +36,8 @@ then use the correct function: input if it's 3.x and raw_input if 3.x.
 
 ----
 
+-working on letting the user pick the number of questions
+thoughts:
+-can I do it in the __init__?
+-should I make it a separate method or not? 
 

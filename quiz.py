@@ -8,8 +8,10 @@ from questions import Add, Multiply, Subtract
 # 1. Change so it takes a number of questions to generate
 # 2. Make sure the user can specify the range they want the numbers to come from
 # 3. Add in some further stats that tell you how long it took to answer each question.
-# 4. Add subtraction questions
 # 5. Allow the user to practice specific operators.
+
+# completed:
+# 4. Add subtraction questions
 
 
 class Quiz:
@@ -19,14 +21,16 @@ class Quiz:
     def __init__(self):
         question_types = (Add, Multiply, Subtract)
         # question_types[0](1, 5)
+        # ask user for number of questions:
+        q_num = raw_input("Enter the number of questions: ")
+        q_num = int(q_num)
         # generate 10 random questions with numbers from 1 to 10
-        for _ in range(10):
-            num1 = random.randint(1, 10)
-            num2 = random.randint(1, 10)
+        for _ in range(q_num):
+            num1 = random.randint(1, q_num)
+            num2 = random.randint(1, q_num)
             question = random.choice(question_types)(num1, num2)
             # add these questions into self.questions
             self.questions.append(question)
-
 
     def take_quiz(self):
         # log the start time
