@@ -17,3 +17,9 @@ Some things to try for the quiz:
 1/9/2015
 -noticed it's scoring everything out of 0. 
 -fix this bug!
+-discovered the problem:
+	- I was using input instead of raw_input
+	- to get answers from the user.
+	- The original code was written for Python 3.x, but now using 2.x
+	- Once I changed it to raw_input, worked like a charm. 
+
