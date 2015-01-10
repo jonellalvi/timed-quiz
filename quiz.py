@@ -2,13 +2,14 @@
 import datetime
 import random
 
-from questions import Add, Multiply
+from questions import Add, Multiply, Subtract
 
 # some things to try:
 # 1. Change so it takes a number of questions to generate
 # 2. Make sure the user can specify the range they want the numbers to come from
 # 3. Add in some further stats that tell you how long it took to answer each question.
 # 4. Add subtraction questions
+# 5. Allow the user to practice specific operators.
 
 
 class Quiz:
@@ -16,7 +17,7 @@ class Quiz:
     answers = []
 
     def __init__(self):
-        question_types = (Add, Multiply)
+        question_types = (Add, Multiply, Subtract)
         # question_types[0](1, 5)
         # generate 10 random questions with numbers from 1 to 10
         for _ in range(10):
@@ -46,6 +47,8 @@ class Quiz:
         question_start = datetime.datetime.now()
         # capture the answer
         # use raw_input if using Python 2.x, input if 3.x!
+        # try testing for version with import sys and
+        # sys.version.split(" ")[0].sp
         answer = raw_input(question.text + ' = ')
         # check the answer
         if answer == str(question.answer):

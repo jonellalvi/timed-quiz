@@ -11,6 +11,9 @@ Some things to try for the quiz:
 4. Add subtraction questions
 5. Allow the user to practice specific operators
 
+FINISHED TASKS:
+1. Solved scoring bug
+2. Added subtraction
 
 ------
 
@@ -28,5 +31,9 @@ then use the correct function: input if it's 3.x and raw_input if 3.x.
 
 -----
 -decided to work on adding Subtraction questions. 
+-okay it was easier than I thought.
+-done.
+
+----
 
 
