@@ -14,7 +14,7 @@ Some things to try for the quiz:
 FINISHED TASKS:
 1. Solved scoring bug
 2. Added subtraction
-
+3. Allow user to determine number of qustions
 ------
 
 1/9/2015
@@ -38,6 +38,15 @@ then use the correct function: input if it's 3.x and raw_input if 3.x.
 
 -working on letting the user pick the number of questions
 thoughts:
--can I do it in the __init__?
--should I make it a separate method or not? 
+-can I do it in the __init__?  CAN, but better to do it outside the class, 
+before calling the Quiz().
+-should I make it a separate method or not? NO
+-DONE.
+
+----
+
+-working on further stats for timing each answer, rather than the whole quiz
+-DONE
+
+----
 
