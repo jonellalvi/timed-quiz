@@ -23,3 +23,10 @@ Some things to try for the quiz:
 	- The original code was written for Python 3.x, but now using 2.x
 	- Once I changed it to raw_input, worked like a charm. 
 
+* I wonder if it's possible to test for the version of Python,
+then use the correct function: input if it's 3.x and raw_input if 3.x. 
+
+-----
+-decided to work on adding Subtraction questions. 
+
+
